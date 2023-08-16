@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Inter&display=swap" rel="stylesheet">
+    <title>Kalkulator Matematik Segitiga</title>
+</head>
+
+<script src="js/script.js"></script>
+
+<body>
+    
+    <header>Kalkulator Matematik Segitiga
+
+    </header>
+    <main>
+        <br>
+        <strong>Rumus Keliling Segitiga:
+            <p>K= Sisi A + Sisi B + Sisi C</p>
+        </strong>
+        <div class="container">
+            <img src="segitiga.png" alt="gambar segitiga">
+        </div>
+        <br>
+        <br>  
+        <section class="section">
+            <label for="SisiA">Sisi A:</label>
+            <input type="number" id="SisiA" placeholder="0">
+        </section>
+
+        <section class="section">
+            <label for="SisiB">Sisi B:</label>
+            <input type="number" id="SisiB" placeholder="0">
+        </section>
+
+        <section class="section">
+            <label for="SisiC">Sisi C:</label>
+            <input type="number" id="SisiC" placeholder="0">
+        </section>
+
+        <section>
+            <button onclick="hitung2()" id="hitung2">Hitung</button>
+            <button onclick="reset2()">Reset</button>
+            <button id="kehtml1">Go to Hitung Luas</button>
+        </section>
+
+        <section>
+            <p id="hasil2"></p>    
+        </section>
+    </main>
+
+    <footer>
+        <!-- footer belum di kasih contoh kak huhu T_T -->
+    </footer>
+</body>
+</html>

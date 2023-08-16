@@ -1,0 +1,85 @@
+@charset "UTH-8";
+
+title {
+    text-align: center;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+header {
+    background-color: #96B6C5;
+    color: #4D3C77;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 5px;
+    font-size: 25px ;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ input {
+    padding: 2px;
+    border: 2px solid rgb(1, 120, 120);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+ }
+
+ input:focus {
+    border-color: rgb(2, 203, 203);
+    outline: 5px;
+    box-shadow: 10px;  
+ }
+
+.container {
+    margin-top: -230px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ button {
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(116, 252, 252);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+ }
+ 
+ button:focus {
+    border-color: rgb(2, 203, 203);
+    outline: none;
+    box-shadow: 10px;
+ }
+
+ button:hover {
+    background-color: rgb(87, 227, 227);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+p {
+    margin-bottom: 300px;
+    margin-top: 10px;
+}
