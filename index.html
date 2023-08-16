@@ -20,8 +20,9 @@
     <main>
         <br>
         <strong>Rumus Luas Segitiga:
-            <p>L= 1/2 x a x t</p>
+            <p1>L= 1/2 x a x t</p1>
         </strong>
+        
         <div class="container">
             <img src="asset/segitiga.png" alt="gambar segitiga">
         </div>
@@ -45,6 +46,42 @@
 
         <section>
             <p id="hasil1"></p>   
+        </section>
+        
+        <hr>
+        <br>
+        <strong id="bagianbawah">Rumus Keliling Segitiga:
+            <p1>K= Sisi A + Sisi B + Sisi C</p1>
+        </strong>
+        
+        <div class="container">
+            <img src="asset/segitiga.png" alt="gambar segitiga">
+        </div>
+        <br>
+        <br>  
+        <section class="section">
+            <label for="SisiA">Sisi A:</label>
+            <input type="number" id="SisiA" placeholder="0">
+        </section>
+
+        <section class="section">
+            <label for="SisiB">Sisi B:</label>
+            <input type="number" id="SisiB" placeholder="0">
+        </section>
+
+        <section class="section">
+            <label for="SisiC">Sisi C:</label>
+            <input type="number" id="SisiC" placeholder="0">
+        </section>
+
+        <section>
+            <button onclick="hitung2()" id="hitung2">Hitung</button>
+            <button onclick="reset2()">Reset</button>
+            <button id="kehtml1">Go to Hitung Luas</button>
+        </section>
+
+        <section>
+            <p id="hasil2"></p>    
         </section>
     </main>
 

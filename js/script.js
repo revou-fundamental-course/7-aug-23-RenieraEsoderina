@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const kehtml1 = document.getElementById("kehtml1");
     
     kehtml1.addEventListener("click", function() {
-        window.location.href = "index.html";
+      scrollToPosition(0);
     });
 });
 
@@ -11,9 +11,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const kehtml2 = document.getElementById("kehtml2");
     
     kehtml2.addEventListener("click", function() {
-        window.location.href = "index2.html";
+      scrollToPosition(document.body.scrollHeight);
     });
 });
+
+function scrollToPosition(position) {
+  window.scrollTo({
+      top: position,
+      behavior: "smooth"
+  });
+}
 
 /*rumus luas*/
 function hitung1() {
